@@ -1,3 +1,5 @@
+package Week2;
+
 public class Printing {
     public static void main(String[] args) {
         printStars(5);

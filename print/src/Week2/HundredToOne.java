@@ -1,3 +1,5 @@
+package Week2;
+
 public class HundredToOne {
     public static void main(String[] args) {
         int number = 100;

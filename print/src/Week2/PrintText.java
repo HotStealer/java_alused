@@ -1,3 +1,5 @@
+package Week2;
+
 public class PrintText {
     public static void main(String[] args) {
         printText();
