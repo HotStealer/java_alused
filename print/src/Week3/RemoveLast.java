@@ -1,6 +1,8 @@
+package Week3;
+
 import java.util.ArrayList;
 
-public class AmountList {
+public class RemoveLast {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<String>();
         list.add("Lars");
@@ -8,14 +10,16 @@ public class AmountList {
         list.add("Edgar");
         list.add("Martin");
         System.out.println("There are this many items in the list: ");
-        System.out.print(countItems(list));
+        System.out.print(removeLast(list));
     }
 
-    private static int countItems(ArrayList<String> list) {
+    private static ArrayList<String> removeLast(ArrayList<String> list) {
         int i = 0;
         for (String item : list){
             i++;
         }
-        return i;
+        list.remove(i-1);
+        return list;
     }
 }
+

@@ -1,3 +1,5 @@
+package Week3;
+
 public class SumNumbers {
     public static void main(String[] args) {
        int answer = sum(4, 3, 6, 1);

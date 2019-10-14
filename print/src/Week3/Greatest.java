@@ -1,3 +1,5 @@
+package Week3;
+
 public class Greatest {
     public static void main(String[] args) {
         int answer = greatest(25, 18, 12);

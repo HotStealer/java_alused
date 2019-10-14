@@ -1,3 +1,5 @@
+package Week3;
+
 public class Average {
     public static void main(String[] args) {
         double answer = average(4, 3, 6, 1);

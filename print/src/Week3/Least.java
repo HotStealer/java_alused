@@ -1,3 +1,5 @@
+package Week3;
+
 public class Least {
     public static void main(String[] args) {
         int answer = least(10, 8);
