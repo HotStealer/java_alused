@@ -1,3 +1,5 @@
+package Week4;
+
 public class Product {
     private String nameAtStart;
     private double priceAtStart;

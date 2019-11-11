@@ -1,3 +1,5 @@
+package Week4;
+
 public class Counter {
     public static void main(String[] args) {
         DecreasingCounter counter = new DecreasingCounter(100);
